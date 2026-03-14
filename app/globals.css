@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+body {
+  background-color: #FFFDE7;
+  color: #1A1A1A;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.dotted-sep {
+  border-bottom: 2px dotted #E0C000;
+}
+
+.yellow-card {
+  background: #FFFFFF;
+  border-left: 4px solid #FDD835;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.category-btn {
+  background: #FDD835;
+  color: #1A1A1A;
+  border: 2px solid #E0C000;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.15s;
+}
+
+.category-btn:hover {
+  background: #E0C000;
+  transform: translateY(-1px);
+}
+
+.tag-pill {
+  background: #FDD835;
+  color: #1A1A1A;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-weight: 600;
+}
