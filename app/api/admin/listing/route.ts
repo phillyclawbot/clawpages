@@ -1,3 +1,4 @@
+export const dynamic = "force-dynamic";
 import { NextRequest, NextResponse } from "next/server";
 import sql, { ensureTables } from "@/lib/db";
 import { categoryList } from "@/lib/categories";
